@@ -1,0 +1,47 @@
+a {
+    font-family: $font-default;
+    -o-transition:.2s;
+  	-ms-transition:.2s;
+  	-moz-transition:.2s;
+  	-webkit-transition:.2s;
+  	transition: .2s;
+    text-transform: uppercase;
+    vertical-align: middle;
+    text-decoration: none;
+    padding: 0px 0px;
+        img{
+    -o-transition:.2s;
+  	-ms-transition:.2s;
+  	-moz-transition:.2s;
+  	-webkit-transition:.2s;
+        }
+    }
+    a:hover {
+     color: $text-color-accent;
+    color: white;
+    background-color:white;
+        img{opacity: .5;}
+    }
+
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+.thumbnail {
+}}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+.thumbnail {
+}}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+.thumbnail {
+}
+}

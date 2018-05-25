@@ -1,0 +1,164 @@
+h1, h2, h3, h4, h5, h6, p{
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+h1 {
+    text-shadow: 7px 7px 0px $text-color-accent;
+       font-size: 120px;
+    font-size: 13vw;
+   margin: 0px 0px 15px 0px;
+   font-weight: 900;
+   font-style: normal;
+   font-family: $font-default;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+    word-wrap: break-word;
+    margin-top: 00px !important;
+        -o-transition:.2s;
+  	-ms-transition:.2s;
+  	-moz-transition:.2s;
+  	-webkit-transition:.2s;
+  	transition: .2s;
+    text-align: center;
+}
+
+h2 {
+text-shadow: 3px 3px 0px $text-color-accent2;
+  width:auto;
+    color:$text-color-dark;
+  padding:0px;
+  margin:0 auto;
+    margin-bottom: 0px;
+  text-align: left;
+  font-family:$font-default;
+  text-transform: uppercase;
+  font-weight:$heavy;
+  font-size: 7vw;
+  line-height:.9;
+    letter-spacing: 1px;
+    overflow:hidden;
+        -o-transition:.2s;
+  	-ms-transition:.2s;
+  	-moz-transition:.2s;
+  	-webkit-transition:.2s;
+  	transition: .2s;
+    padding: 10px 0px;
+    text-align: center;
+    
+    
+    
+}
+
+h3 {
+  width:auto;
+    color:$text-color-dark;
+  padding:5px 5px;
+  margin:0 auto;
+    margin-bottom: 20px;
+  text-align: left;
+  font-family:$font-default;
+  text-transform: uppercase;
+  font-weight:$heavy;
+  font-size: 4vw;
+  line-height:.9;
+    letter-spacing: 5px;
+    overflow:hidden;
+        -o-transition:.2s;
+  	-ms-transition:.2s;
+  	-moz-transition:.2s;
+  	-webkit-transition:.2s;
+  	transition: .2s;
+    
+}
+
+p {
+    padding: 0 0 0 0px;
+   font-size: 16px;
+   clear: none;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 200;
+   font-style: normal;
+    max-width: 500px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+a {
+    font-family: $font-default;
+    -o-transition:.2s;
+  	-ms-transition:.2s;
+  	-moz-transition:.2s;
+  	-webkit-transition:.2s;
+  	transition: .2s;
+    text-transform: inherit !important;
+    vertical-align: inherit !important;
+    text-decoration: none;
+    padding: 0px 0px;
+    color: $text-color-accent2;
+    
+}
+
+a:hover {
+color: $text-color-accent;
+    color: white;
+    background-color: #222 !important;
+}
+
+.title {
+color:#222;
+}
+
+
+.sitelink a:hover {
+    color:white;
+    background-color: #222;
+}
+
+li {
+list-style-type: none;
+}
+
+/* RESPONSIVE SIZING */
+
+
+
+
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+    h3{font-size: 18px;}
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+h1 {font-size: 11vw;text-align: left;}
+    
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+h1 {} 
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+h1 {font-size: 170px;}
+h2{font-size: 80px;}  
+}
+
+.title {
+padding: 0px;
+}
+
+.title:hover { 
+    background-color: rgba(0, 0, 0, 0);;
+    color:$text-color-accent;
+}
