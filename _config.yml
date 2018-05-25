@@ -2,6 +2,8 @@ name: Tifen Design
 markdown: kramdown
 permalink: pretty
 permalink: /:categories/:year/:month/:day/:title
+exclude: [README.md', 'LICENSE.txt', 'CNAME']
+baseurl: ""
 sass:
   sass_dir: _sass
   style: compressed
