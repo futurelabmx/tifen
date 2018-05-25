@@ -261,6 +261,7 @@ DEPENDENCIES
   compass
   github-pages
   nokogiri
+  sass
   sass-media_query_combiner
 
 BUNDLED WITH
