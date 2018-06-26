@@ -1,4 +1,4 @@
-JaredSellers.com
+Stephen Design Website http://tifen.me/
 ====================
 
 "I am always doing that which I cannot do, in order that I may learn how to do it."
@@ -20,7 +20,7 @@ Built with:
 
 This is mostly for me, to keep maintaining the site.
 
-Blog Thumbnails: 
+Blog Thumbnails:
 -960x400px
 -Mid compression jpeg
 -PNG-8
@@ -28,18 +28,18 @@ Blog Thumbnails:
 -Pattern
 -16 colors
 
-Portfolio Thumbnails: 
+Portfolio Thumbnails:
 -Export at 500x500px
 -PNG-8
 -Restrictive
 -Pattern
 -16 colors
 
-Portfolio Full page settings: 
+Portfolio Full page settings:
 -1000px on long edge
 -Mid compression jpeg
 
-Portfolio Full page settings: 
+Portfolio Full page settings:
 -1000px on long edge
 -Mid compression jpeg
 
