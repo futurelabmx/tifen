@@ -4,7 +4,7 @@ markdown: kramdown
 permalink: pretty
 permalink: /:categories/:year/:month/:day/:title
 exclude: [README.md', 'LICENSE.txt', 'CNAME']
-baseurl: ""
+baseurl: "https://futurelab.mx/"
 sass:
   sass_dir: _sass
   style: compressed
